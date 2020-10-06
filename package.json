@@ -1,7 +1,7 @@
 {
-  "name": "react-native-bluetooth-headset-detect",
+  "name": "react-native-bluetooth-headset-detect-ex",
   "title": "Bluetooth Headset Detection for React Native",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "description": "React Native module to detect headset connection",
   "main": "index.js",
   "scripts": {
@@ -15,13 +15,9 @@
   "keywords": [
     "react-native"
   ],
-  "author": {
-    "name": "Alexey Korepanov",
-    "email": "alexkorep@gmail.com"
-  },
+  "author": "Alexey Korepanov <alexkorep@gmail.com>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.5.0",
     "react-native": ">=0.57.0-rc.0 <1.0.x"
@@ -31,5 +27,9 @@
     "eslint": "^6.5.1",
     "react": "^16.5.0",
     "react-native": "^0.61.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/alexkorep/react-native-bluetooth-headset-detect/issues"
+  },
+  "homepage": "https://github.com/alexkorep/react-native-bluetooth-headset-detect#readme"
 }
