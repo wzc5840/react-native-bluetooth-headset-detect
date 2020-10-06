@@ -37,7 +37,8 @@ RCT_EXPORT_MODULE()
 - (void)audioHardwareRouteChanged:(NSNotification *)notification {
     NSNumber *reason = [notification.userInfo objectForKey:AVAudioSessionRouteChangeReasonKey];
     if ([reason unsignedIntegerValue] == AVAudioSessionRouteChangeReasonNewDeviceAvailable ||
-        [reason unsignedIntegerValue] == AVAudioSessionRouteChangeReasonOldDeviceUnavailable) {
+        [reason unsignedIntegerValue] == AVAudioSessionRouteChangeReasonOldDeviceUnavailable ||
+        [reason unsignedIntegerValue] == AVAudioSessionRouteChangeReasonOverride) {
         [self updateConnectedDevice];
     }
 }
